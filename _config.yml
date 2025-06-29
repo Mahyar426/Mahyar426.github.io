@@ -36,7 +36,7 @@ collections:
     permalink: /projects/:name/
 
 author:
-  name: "Mahyar"
+  name: "Mahyar Onsori"
   avatar: "/assets/images/bio-photo.jpg"
   bio: "Embedded Systems Engineer by day, Sports Enthusiast by night."
   links:
