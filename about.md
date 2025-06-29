@@ -11,5 +11,5 @@ Contact me at: **mahyaronsori99@gmail.com**
 - [LinkedIn](https://www.linkedin.com/in/mahyar-onsori/)
 - [GitHub](https://github.com/mahyar426)
 
-[Download CV](/assets/cv.pdf){: .btn .btn--primary }
+[Download CV](/assets/Mahyar_Onsori_CV1){: .btn .btn--primary }
 
