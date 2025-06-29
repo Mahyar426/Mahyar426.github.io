@@ -10,7 +10,7 @@ search: true
 # Theme & Layout
 theme: minimal-mistakes-jekyll
 enable_copy_code_button: true
-remote_theme: mmistakes/minimal-mistakes
+#remote_theme: mmistakes/minimal-mistakes
 
 # Build settings
 markdown: kramdown
