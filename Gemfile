@@ -1,11 +1,8 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 3.10"
+gem "minimal-mistakes-jekyll"        # ← Add this for the theme
 
-gem "tzinfo-data"
-gem "wdm", "~> 0.2.0" if Gem.win_platform?
-
-# If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-sitemap"
@@ -14,4 +11,9 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
+  gem "kramdown-parser-gfm"   # ← Add this line
 end
+
+
+gem "tzinfo-data"
+gem "wdm", "~> 0.2.0" if Gem.win_platform?
