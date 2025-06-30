@@ -21,9 +21,10 @@ jobs:
           gem install bundler
           bundle install
           bundle exec jekyll build
-      - name: Deploy to master
+      - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: master
+          publish_branch: gh-pages
           publish_dir: ./_site
+          force_orphan: true
