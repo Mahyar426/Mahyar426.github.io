@@ -10,7 +10,6 @@ search: true
 # Theme & Layout
 theme: minimal-mistakes-jekyll
 enable_copy_code_button: true
-#remote_theme: mmistakes/minimal-mistakes
 
 # Build settings
 markdown: kramdown
@@ -74,7 +73,13 @@ defaults:
       type: projects
     values:
       layout: single
-      author: Mahyar  # Ensure matches author config
+      author: Mahyar
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: home
+      author_profile: true
 
 category_archive:
   type: liquid
