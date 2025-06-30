@@ -1,7 +1,7 @@
 ---
-layout: home
-title: "Welcome to My Site"
+layout: single
+title: "Under Construction"
+author_profile: false
 ---
 
-Hello! I'm Mahyar 👋  
-This is my personal blog & portfolio, built with Jekyll and the Minimal Mistakes theme.
+> 🚧 This site is under development. Please check back later!
